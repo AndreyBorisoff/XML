@@ -1,1 +1,31 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<summary>Письмо отправляется без заполнения поля 'Тема'</summary>
+	<project>Яндекс</project>
+	<component>Яндекс.Почта</component>
+	<version>52.0.0</version>
+	<severity>
+		<severity_code>S5</severity_code>
+		<severity_description>minor</severity_description>
+	</severity>
+	<priority>
+		<priority_code>P2</priority_code>
+		<priority_description>medium</priority_description>
+	</priority>
+	<status>new</status>
+	<author>Borisov Andrei</author>
+	<assigned_to></assigned_to>
+	<description>
+		<environment>
+			<OS>Microsoft Windows NT 10.0.19044.0</OS>
+			<browser>Google Chrome 102.0.5005.62, x64</browser>
+		</environment>
+		<preconditions>Пользователь авторизован. Открыта папка Входящие.</preconditions>
+		<steps_to_reproduce>Нажать на кнопку 'Написать'</steps_to_reproduce>
+		<steps_to_reproduce>Ввести корректный адрес электронной почты в поле 'Кому', поле 'Тема' не заполнять</steps_to_reproduce>
+		<steps_to_reproduce>Нажать на кнопку 'Отправить'</steps_to_reproduce>
+		<expected_result>Письмо не отправляется. Появляется сообщение о необходимости ввода адреса получателя письма.</expected_result>
+		<actual_result>Письмо отправляется без ввода темы</actual_result>
+	</description>
+	<attachment>https://disk.yandex.ru/i/heJtS9vefksmWw</attachment>
+</root>
