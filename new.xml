@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<person>
+	<LastName value="Borisov"/>
+	<FirstName value="Andrei"/>
+	<Patronym value="Alexandrovich"/>
+	<Age value="42"/>
+	<Number_of_pets value="0"/>
+	<Expected_salary value="50000"/>
+	</person>
+</root>
